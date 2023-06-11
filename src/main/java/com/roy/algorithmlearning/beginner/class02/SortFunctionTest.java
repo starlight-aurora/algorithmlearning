@@ -21,7 +21,6 @@ public class SortFunctionTest {
 
             Arrays.sort(testArray);
 
-
             Sort.selectSort(testArray1);
             Sort.bubbleSort(testArray2);
             Sort.insertSort(testArray3);
