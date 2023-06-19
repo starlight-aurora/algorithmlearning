@@ -2,9 +2,7 @@ package com.roy.algorithmlearning.beginner.class04;
 
 public class ReverseLinkedNodeInKGroup {
 
-    public static void main(String[] args) {
-
-    }
+    // 测试地址： https://leetcode.cn/problems/reverse-nodes-in-k-group/
 
     public static ListNode reverseKGroup(ListNode head, int k) {
         ListNode start = head;
