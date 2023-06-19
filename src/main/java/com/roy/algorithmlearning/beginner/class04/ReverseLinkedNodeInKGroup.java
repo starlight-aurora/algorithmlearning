@@ -19,6 +19,7 @@ public class ReverseLinkedNodeInKGroup {
         while (lastEndNode.next != null) {
             start = lastEndNode.next;
             end = getKNode(start, k);
+            // 剩下的链表不到K长度
             if (end == null) {
                 return head;
             }
