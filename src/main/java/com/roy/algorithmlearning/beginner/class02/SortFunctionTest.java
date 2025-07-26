@@ -5,6 +5,8 @@ import com.roy.algorithmlearning.util.ArrayUtil;
 
 import java.util.Arrays;
 
+// 用来检测写的排序算法是否正确
+
 public class SortFunctionTest {
 
     public static void main(String[] args) {

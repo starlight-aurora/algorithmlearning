@@ -2,6 +2,8 @@ package com.roy.algorithmlearning.beginner.class02;
 
 import com.roy.algorithmlearning.util.ArrayUtil;
 
+// 获取array 的从L到R的和
+
 public class RangeSum {
 
     public static void main(String[] args) {
@@ -9,12 +11,13 @@ public class RangeSum {
         ArrayUtil.printArray(array);
         int[] preSum = getPreSum(array);
         ArrayUtil.printArray(preSum);
-        // 获取array 的从L到R的和
+
         // 获取array 的从 前缀 5到15 的数的和
         int sum = preSum[15] - preSum[5 - 1];
         System.out.println(sum);
     }
 
+    // 获得前缀和数组
     public static int[] getPreSum(int[] array) {
         //前缀和数组
         int[] preSum = new int[array.length];

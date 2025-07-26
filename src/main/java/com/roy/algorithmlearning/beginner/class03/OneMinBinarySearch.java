@@ -2,6 +2,8 @@ package com.roy.algorithmlearning.beginner.class03;
 
 import com.roy.algorithmlearning.util.ArrayUtil;
 
+//无序数组，相邻的数字不相等，找到一个局部最小值的位置
+
 public class OneMinBinarySearch {
 
     public static void main(String[] args) {

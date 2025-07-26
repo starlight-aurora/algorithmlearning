@@ -3,6 +3,8 @@ package com.roy.algorithmlearning.beginner.class03;
 import com.roy.algorithmlearning.beginner.class01.Sort;
 import com.roy.algorithmlearning.util.ArrayUtil;
 
+// 有序数组，找到一个>=num的最左序号
+
 public class MaxLeftBinarySearch {
 
     public static void main(String[] args) {

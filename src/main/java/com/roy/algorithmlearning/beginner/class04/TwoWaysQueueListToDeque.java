@@ -2,7 +2,6 @@ package com.roy.algorithmlearning.beginner.class04;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Queue;
 
 public class TwoWaysQueueListToDeque {
 
