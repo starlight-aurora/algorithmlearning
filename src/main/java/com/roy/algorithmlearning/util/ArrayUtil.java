@@ -6,6 +6,11 @@ public class ArrayUtil {
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
+
+        // 下面的代码不能是一个位置， 不然会把两个书都变成0
+//        array[i] = array[i] ^  array[j];
+//        array[j] = array[i] ^  array[j];
+//        array[i] = array[i] ^  array[j];
     }
 
     public static void printArray(int[] array) {
