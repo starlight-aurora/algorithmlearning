@@ -37,6 +37,20 @@ public class ArrayUtil {
         return array;
     }
 
+    //限制最大长度和 最大值的绝对值 生成一个数组, 值可能为负数
+    public static int[] generateArray(int maxLength, int maxValue, boolean flag) {
+        int len = (int) (Math.random() * maxLength);
+        int[] array = new int[len];
+        for (int i = 0; i < len; i++) {
+            if (flag) {
+                array[i] = (int) (Math.random() * maxValue) - (int) (Math.random() * maxValue);
+            } else  {
+                array[i] = (int) (Math.random() * maxValue);
+            }
+        }
+        return array;
+    }
+
     //复制一个数组
     public static int[] copyArray(int[] array) {
         int[] copiedArray = new int[array.length];
